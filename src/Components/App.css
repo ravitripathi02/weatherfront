@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body {
+  background: linear-gradient(90deg, rgb(170, 116, 206), rgb(0, 255, 157));
+  /* background: no-repeat; */
+}
+.login_form {
+  /* display: flex;
+  flex-direction: column; */
+  margin-top: 100px;
+  border: 2px solid black;
+  width: 500px;
+  box-shadow: 3px 3px 6px 7px rgb(29 28 28);
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  height: 500px;
+}
+
+.login {
+  display: flex;
+  margin-left: 5vw;
+  margin-top: 7vh;
+  color: rgb(0, 255, 157);
+}
+.login_con {
+  display: flex;
+  margin-left: 5vw;
+  /* margin-top: 3vh; */
+  color: rgb(132, 146, 141);
+}
+Form {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  /* width:300px; */
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border-top: none;
+  border-left: none;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  padding-left: 5px;
+  height: 40px;
+  border-bottom: 3px solid rgb(132, 146, 141);
+  border-right: none;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.name:focus {
+  border-bottom: 3px solid rgb(0, 255, 157);
+}
+.password {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border-top: none;
+  border-left: none;
+  outline: none;
+  padding-left: 5px;
+  height: 40px;
+  border-bottom: 3px solid rgb(132, 146, 141);
+  border-right: none;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.password:focus {
+  border-bottom: 3px solid rgb(0, 255, 157);
+}
+.login_btn {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  height: 40px;
+  margin-left: 100px;
+  background: linear-gradient(90deg, rgb(170, 116, 206), rgb(0, 255, 157));
+  color: white;
+  font-size: 20px;
+  margin-right: 100px;
+  cursor: pointer;
+}
+.login_btn:hover {
+  background: linear-gradient(90deg, rgb(0, 255, 157), rgb(170, 116, 206));
+}
+.Container {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 100px;
+  gap: 24px;
+  justify-content: center;
+}
