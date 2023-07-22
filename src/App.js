@@ -49,7 +49,6 @@ function App() {
       console.log("Error fetching weather data:", error);
     }
   };
-  console.log(currWeatherData);
 
   return (
     <div className="App">
