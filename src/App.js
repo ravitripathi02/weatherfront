@@ -41,7 +41,7 @@ function App() {
   }, []);
   const getWeather = async () => {
     try {
-      const response = await axios.post("http://localhost:3001/weather", {
+      const response = await axios.post("https://main--reliable-druid-8948db.netlify.app/", {
         location,
       });
       setWeatherData(response.data);
