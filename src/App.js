@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./index";
 import axios from "axios";
-import CurrLoc from "./CurrLoc";
 function App() {
   const [location, setLocation] = useState("");
   const [weatherData, setWeatherData] = useState(null);
   const [currWeatherData, setCurrWeatherData] = useState(null);
-  const [currLoc, getCurrLoc] = useState({});
   const handleLocationChange = (e) => {
     setLocation(e.target.value);
   };
