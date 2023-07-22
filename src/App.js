@@ -41,7 +41,7 @@ function App() {
   }, []);
   const getWeather = async () => {
     try {
-      const response = await axios.post("https://weatherback-seven.vercel.app/", {
+      const response = await axios.post("https://weatherback-seven.vercel.app/weather", {
         location,
       });
       setWeatherData(response.data);
