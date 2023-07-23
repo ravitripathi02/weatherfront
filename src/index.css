@@ -134,4 +134,11 @@ h1 {
   .detail h2, .detail p{
     width:200px;
   }
+  
+.left-three {
+    font-size: 1.5em;
+}
+.left-b-2 {
+    font-size: 2em;
+}
 }
