@@ -131,4 +131,7 @@ h1 {
     height:40px;
     border-radius:20px;
   }
+  .detail h2, .detail p{
+    width:200px;
+  }
 }
