@@ -41,7 +41,7 @@ function App() {
   }, []);
   const getWeather = async () => {
     try {
-      const response = await axios.post("https://reliable-druid-8948db.netlify.app/", {
+      const response = await axios.post("https://weatherback-seven.vercel.app/", {
         location,
       });
       setWeatherData(response.data);
