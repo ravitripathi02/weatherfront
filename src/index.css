@@ -142,3 +142,8 @@ h1 {
     font-size: 2em;
 }
 }
+@media screen and (max-width: 963px) {
+  .form input {
+     width: 110px;
+  }
+}
